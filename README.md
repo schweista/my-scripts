@@ -14,6 +14,11 @@ source ~/.bashrc
 ```
 
 ## Direct execution without cloning
+Hello test script
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/schweista/my-scripts/refs/heads/main/shell-scripts/hello.sh)
+```
+Convert P12 to PEM script
+```bash
+bash <(curl -s https://raw.githubusercontent.com/schweista/my-scripts/refs/heads/main/shell-scripts/convert-p12-to-pem.sh)
 ```
